@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-   <remote name="twrp" fetch="https://github.com/TeamWin" />
+   <remote name="zenin1504"
+           fetch="https://github.com/zenin1504" />
    
-   <!-- TWRP platform manifest -->
-   <project path="device/xiaomi/degas" name="device_twrp_degas" remote="twrp" revision="12.1" />
-   <project path="build" name="platform_build" remote="twrp" revision="12.1" />
+   <!-- Device tree -->
+   <project path="device/xiaomi/degas" name="device_twrp_degas" remote="zenin1504" revision="12.1" />
+   
+   <!-- Other projects you may need, e.g. android_build -->
 </manifest>
