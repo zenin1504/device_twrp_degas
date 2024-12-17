@@ -1,1 +1,0 @@
-# device_twrp_degas
